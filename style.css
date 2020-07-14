@@ -1,0 +1,11 @@
+#main {
+    text-align: center;
+}
+
+#image {
+    display: block;
+    border: 1px solid black;
+    width: 85%;
+    max-width: 380px;
+    margin: auto;
+}
