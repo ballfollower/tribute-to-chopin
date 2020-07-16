@@ -1,11 +1,33 @@
+body {
+    background-image: url("rose-tile.png");
+    color: #fcc;
+}
+
 #main {
     text-align: center;
 }
 
-#image {
-    display: block;
-    border: 1px solid black;
+/* #image-cropper {
+    border-radius: 50%;
+    overflow: hidden;
+
     width: 85%;
     max-width: 380px;
     margin: auto;
+    box-shadow: 0 0 148px 0 hsl(0, 49%, 36%) inset; 
+} */
+
+#image {
+    display: block;
+    border-radius: 50%;
+    max-width: 380px;
+    height: 380px;
+    width: 85%;
+    object-fit: cover;
+    object-position: 0 0;
+    margin: auto;
+ 
+    /* margin: -100px; */
+
+    /* box-shadow: 0 0 14px 14 hsl(0, 49%, 36%);  */
 }
