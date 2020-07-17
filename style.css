@@ -1,6 +1,6 @@
 body {
-    background-image: url("leaves-pattern.png");
-    /* color: #fcc; */
+    background-image: url("flowers\ texture\ dark.jpg");
+    color:hsl(1, 78.5%, 100%);
 }
 
 #main {
@@ -15,9 +15,10 @@ body {
     display: block;
     border-radius: 50%;
     max-width: 380px;
-    height: 380px;
+    /* max-height: 180px; */
     width: 85%;
-    object-fit: cover;
-    object-position: 0 0;
+    /* object-fit: cover; */
+    /* object-position: 0 0; */
     margin: auto;
+    /* box-shadow: 0 0px 60px rgba(140, 0, 0, 0.3); */
 }
