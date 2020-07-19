@@ -14,9 +14,20 @@ body {
     background-color: hsla(1, 40%, 10%, 0.4);
     margin: 10px;
     border-radius: 20px;
+    max-width: 800px;
+    margin: 0 auto 20px auto;
+}
+
+#img-div {
+    margin-bottom: 20px;
 }
 
 #title h1 {
+    /* background-image: url("keyboard-toned.png");
+    background-repeat: no-repeat;
+    background-size: 500px 80px;
+    background-attachment: fixed;
+    background-position: center; */
     font-family: "Great Vibes";
     font-size: 70px;
     font-weight: normal;
@@ -42,9 +53,41 @@ body {
 }
 
 #tribute-info {
-    display: inline-block;
-    width: auto;
-    padding: 2px 15px;
+    padding: 15px 15px;
+}
+
+.row-div {
+    clear: both;
+    margin: 30px auto;
+}
+
+.row-div div {
+    vertical-align: middle;
+}
+
+#tribute-info img {
+    width: 260px;
+    border-radius: 20px;
+}
+
+.left-photo img {
+    transform: rotate(-4deg);
+    box-shadow: 5px 5px 3px 1px hsla(1, 0%, 80%, 0.2);
+}
+
+.right-photo img {
+    transform: rotate(4deg);
+    box-shadow: -5px 5px 3px 1px hsla(1, 0%, 80%, 0.2);
+}
+
+.left-photo, .left-text {
+    float: left;
+    clear: left;
+}
+
+.right-photo, .right-text {
+    /* float: right; */
+    clear: right;
 }
 
 a {
